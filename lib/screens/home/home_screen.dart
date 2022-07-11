@@ -12,7 +12,7 @@ class HomeScreen extends StatelessWidget {
       backgroundColor: Colors.white,
       //drawer: SideMenu(),
       body: Row(
-        children: [SideMenu(), MainContent()],
+        children: const [SideMenu(), MainContent()],
       ),
     );
   }
